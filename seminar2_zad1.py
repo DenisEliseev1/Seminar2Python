@@ -2,7 +2,7 @@
 # или целое число и показывает сумму его цифр. 
 # Через строку нельзя решать.
 
-number = 87.32
+number = float (input('Введите число - '))
 sum = 0
 while number % 1 != 0:
     number *= 10
@@ -10,3 +10,4 @@ while number > 0:
     sum += int (number % 10)
     number = number // 10
 print (f'Сумма цифр числа равна {sum}')
+
